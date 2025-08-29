@@ -1,0 +1,31 @@
+# 環境変数ファイル（認証情報を含むため）
+.env
+
+# Python キャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS生成ファイル  
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+temp/
+
+# バックアップファイル
+*.bak
+*.backup
+
+.venv/

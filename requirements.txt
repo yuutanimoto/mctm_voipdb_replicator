@@ -1,0 +1,6 @@
+# AWS Lambda用依存関係
+pymssql==2.2.8
+boto3>=1.26.0
+
+# 開発・テスト用（Lambda実行時は不要）
+# psycopg2-binary==2.9.7  # PostgreSQL接続用（後で追加）
