@@ -11,7 +11,7 @@ SQL Server → PostgreSQL データ同期システム
 WSLのUbuntuでプロジェクトを開く：
 
 ```bash
-# プロジェクトフォルダを以下の場所に配置
+# プロジェクトフォルダを以下の場所に配置　またはgit cloneしてくる
 \\wsl.localhost\Ubuntu-24.04\home\init_user\mctm_voipdb_replicator
 ```
 
@@ -150,7 +150,7 @@ Windows環境     → Lambda Linux環境    = 動作しない ❌
 WSL Ubuntu環境  → Lambda Linux環境    = 正常動作 ✅
 ```
 
-### 3. ビルド実行
+### 3. ビルド実行（zipにパッケージングする）
 
 ```bash
 cd lambda_test/lambda_deployment_postgresql_updated
